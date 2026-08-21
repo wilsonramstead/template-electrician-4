@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- DEMO: remove noindex when site goes live -->
+<meta name="robots" content="noindex">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Copperline Electric Co. | 24-Hour Electrician in Tampa Bay Area — Panels, Transfer Switches & Lighting</title>
+<meta name="description" content="Copperline Electric Co. is an owner-run electrician serving the Tampa Bay Area, FL — open 24 hours. Electrical panel replacement &amp; upgrades, transfer switch &amp; generator hookups, lighting installation, emergency electrical, and general residential wiring &amp; repairs. 5★ rated. Fair, competitive pricing. Call or text (727) 555-0143.">
+<meta name="author" content="Copperline Electric Co.">
+<meta name="theme-color" content="#0b63ff">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Copperline Electric Co. | 24-Hour Electrician in Tampa Bay Area">
+<meta property="og:description" content="Owner-run electrician for the Tampa Bay Area — open 24 hours. Panel upgrades, transfer switch &amp; generator hookups, lighting, emergency electrical &amp; general wiring. 5★ rated. Fair, competitive pricing. Call or text (727) 555-0143.">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://wilsonramstead.github.io/template-electrician-4/">
+<meta property="og:image" content="https://images.unsplash.com/photo-1595831708961-1b13c0dd2422?w=1200&q=80&fm=jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Copperline Electric Co. | 24-Hour Electrician in Tampa Bay Area">
+<meta name="twitter:description" content="Owner-run electrician for the Tampa Bay Area — open 24 hours. Panels, transfer switches, lighting &amp; emergency electrical. 5★ rated. Call or text (727) 555-0143.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1595831708961-1b13c0dd2422?w=1200&q=80&fm=jpg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:wght@500;600;700;800&family=Host+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- LocalBusiness structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Electrician",
+  "name": "Copperline Electric Co.",
+  "description": "Owner-run electrical contractor serving the Tampa Bay Area, Florida — open 24 hours. Electrical panel replacement and upgrades, transfer switch and generator hookups, lighting installation, 24-hour emergency electrical work, and general residential wiring and repairs. Fair, competitive pricing.",
+  "image": "https://images.unsplash.com/photo-1595831708961-1b13c0dd2422?w=1200&q=80&fm=jpg",
+  "telephone": "+1-727-555-0143",
+  "priceRange": "$$",
+  "url": "https://wilsonramstead.github.io/template-electrician-4/",
+  "areaServed": ["Tampa Bay Area, FL"],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --blue:#0b63ff;
+    --blue-bright:#3a86ff;
+    --blue-deep:#0842b0;
+    --blue-deeper:#06307f;
+    --blue-soft:#e9f0ff;
+    --charcoal:#1b1f29;
+    --charcoal-2:#232834;
+    --charcoal-ink:#12141b;
+    --hv:#d3ff2e;
+    --hv-bright:#e4ff6b;
+    --hv-soft:#eeffb3;
+    --hv-ink:#1c2400;
+    --hv-glow:rgba(211,255,46,.45);
+    --white:#ffffff;
+    --paper:#ffffff;
+    --mist:#f5f7fb;
+    --mist-2:#eef1f8;
+    --ink:#181b24;
+    --muted:#59607a;
+    --line:rgba(11,99,255,.13);
+    --line-strong:rgba(11,99,255,.22);
+    --shadow:0 24px 50px -26px rgba(10,20,40,.5);
+    --shadow-sm:0 12px 28px -16px rgba(10,20,40,.4);
+    --maxw:1170px;
+    --radius:15px;
+  }
+
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  html,body{overflow-x:clip}
+  body{
+    margin:0;
+    font-family:"Host Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    color:var(--ink);
+    background:var(--white);
+    line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  img{max-width:100%;display:block}
+  a{color:inherit}
+  p{margin:0;overflow-wrap:break-word}
+
+  h1,h2,h3,h4{
+    font-family:"Exo","Host Grotesk",system-ui,Arial,sans-serif;
+    line-height:1.06;
+    margin:0;
+    font-weight:800;
+    color:var(--charcoal-ink);
+    letter-spacing:-.015em;
+    overflow-wrap:break-word;
+  }
+  h2{font-size:clamp(1.95rem,4.4vw,3rem)}
+  h3{font-size:1.28rem;line-height:1.18;font-weight:700}
+
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-left:clamp(20px,5vw,42px);padding-right:clamp(20px,5vw,42px)}
+  section{padding-top:clamp(58px,8.5vw,108px);padding-bottom:clamp(58px,8.5vw,108px)}
+
+  .eyebrow{
+    font-family:"Exo",sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.16em;
+    font-size:.75rem;
+    font-weight:700;
+    color:var(--blue);
+    margin-bottom:14px;
+  }
+  .eyebrow.on-dark{color:var(--hv-bright)}
+
+  /* ---------- Buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;gap:.6em;
+    font-family:"Exo",sans-serif;font-weight:700;font-size:1rem;
+    padding:15px 26px;border-radius:12px;
+    text-decoration:none;cursor:pointer;border:0;
+    transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+    line-height:1.1;min-width:0;
+  }
+  .btn svg{width:19px;height:19px;flex:none}
+  .btn-hv{background:linear-gradient(150deg,var(--hv-bright),var(--hv));color:var(--hv-ink);box-shadow:0 14px 30px -12px var(--hv-glow)}
+  .btn-hv:hover{transform:translateY(-2px);box-shadow:0 18px 36px -12px var(--hv-glow)}
+  .btn-blue{background:var(--blue);color:#fff;box-shadow:0 14px 28px -14px rgba(8,66,176,.85)}
+  .btn-blue:hover{background:var(--blue-bright);transform:translateY(-2px)}
+  .btn-ghost{background:rgba(255,255,255,.06);color:#fff;border:1.5px solid rgba(255,255,255,.55)}
+  .btn-ghost:hover{background:rgba(255,255,255,.15);transform:translateY(-2px)}
+  .btn .sub{display:block;font-size:.72rem;font-weight:500;letter-spacing:.01em;opacity:.9;line-height:1;margin-top:3px}
+  .btn.stack .txt{display:flex;flex-direction:column;align-items:flex-start;text-align:left}
+
+  :focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:6px}
+
+  .skip{
+    position:absolute;left:-999px;top:0;background:var(--blue-deep);color:#fff;
+    padding:12px 18px;z-index:300;border-radius:0 0 10px 0;font-weight:600;text-decoration:none;
+  }
+  .skip:focus{left:0}
+
+  /* ---------- Header ---------- */
+  header.site{
+    position:sticky;top:0;z-index:100;
+    background:rgba(255,255,255,.94);
+    backdrop-filter:saturate(150%) blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:11px;padding-bottom:11px}
+  .brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+  .brand .mark{
+    width:46px;height:46px;flex:none;border-radius:12px;
+    background:linear-gradient(155deg,var(--blue-bright),var(--blue-deep));
+    display:grid;place-items:center;color:var(--hv-bright);
+    box-shadow:0 6px 16px -8px rgba(8,66,176,.9);border:1px solid rgba(228,255,107,.4);
+  }
+  .brand .mark svg{width:24px;height:24px}
+  .brand .bt{min-width:0}
+  .brand b{
+    font-family:"Exo",sans-serif;font-weight:800;font-size:1.14rem;color:var(--charcoal-ink);
+    letter-spacing:-.01em;line-height:1.04;display:block;white-space:nowrap;
+  }
+  .brand span.tag{display:block;font-size:.63rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:3px;white-space:nowrap}
+
+  .nav-right{display:flex;align-items:center;gap:10px;min-width:0;margin-left:auto}
+  .nav-links{display:flex;align-items:center;gap:26px}
+  .nav-links a{text-decoration:none;font-weight:600;font-size:.95rem;color:var(--ink);font-family:"Exo",sans-serif;letter-spacing:.01em}
+  .nav-links a:hover{color:var(--blue)}
+  @media(max-width:900px){.nav-links{display:none}}
+
+  .call-btn{
+    display:inline-flex;align-items:center;gap:9px;text-decoration:none;
+    background:var(--blue);color:#fff;font-weight:700;
+    font-family:"Exo",sans-serif;
+    padding:10px 16px;border-radius:11px;font-size:.94rem;white-space:nowrap;flex:none;
+    transition:transform .18s ease,box-shadow .18s ease,background .18s ease;line-height:1.05;
+    box-shadow:0 10px 22px -12px rgba(8,66,176,.85);
+  }
+  .call-btn:hover{transform:translateY(-1px);background:var(--blue-bright)}
+  .call-btn svg{width:17px;height:17px;flex:none}
+  .call-btn .cn{display:flex;flex-direction:column;line-height:1}
+  .call-btn .cn small{font-size:.62rem;opacity:.85;font-weight:600;letter-spacing:.01em;margin-top:2px}
+
+  @media(max-width:600px){
+    .brand .mark{width:40px;height:40px}
+    .brand b{white-space:normal;font-size:.95rem;line-height:1.15;max-width:11em}
+    .brand span.tag{display:none}
+    .call-btn{padding:11px;gap:0}
+    .call-btn .cn{display:none}
+    .call-btn svg{width:21px;height:21px}
+  }
+  @media(max-width:360px){
+    .brand b{font-size:.88rem;max-width:8.5em}
+    .call-btn{padding:10px}
+    .nav-right{gap:7px}
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{position:relative;display:flex;align-items:center;color:#fff;overflow:hidden;min-height:min(92vh,800px)}
+  .hero-bg{position:absolute;inset:0;z-index:-2}
+  .hero-bg img{width:100%;height:100%;object-fit:cover}
+  .hero::after{
+    content:"";position:absolute;inset:0;z-index:-1;
+    background:
+      linear-gradient(103deg, rgba(15,18,26,.95) 0%, rgba(12,40,110,.82) 46%, rgba(11,99,255,.42) 100%),
+      linear-gradient(0deg, rgba(15,18,26,.74), rgba(15,18,26,0) 48%);
+  }
+  .hero .wrap{padding-top:80px;padding-bottom:80px}
+  .hero-inner{max-width:780px}
+  .badge{
+    display:inline-flex;align-items:center;gap:9px;
+    background:rgba(211,255,46,.16);border:1px solid rgba(228,255,107,.55);
+    color:var(--hv-soft);font-weight:700;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+    padding:7px 14px;border-radius:999px;font-family:"Exo",sans-serif;
+  }
+  .badge .stars{color:var(--hv-bright);letter-spacing:1px}
+  .badge .live{display:inline-flex;align-items:center;gap:7px}
+  .badge .pulse{width:9px;height:9px;flex:none;border-radius:50%;background:var(--hv-bright);box-shadow:0 0 0 4px rgba(211,255,46,.22)}
+  .hero h1{
+    color:#fff;font-weight:800;
+    font-size:clamp(2.3rem,6vw,4.15rem);
+    letter-spacing:-.02em;margin:20px 0 0;line-height:1.03;
+  }
+  .hero h1 em{font-style:normal;color:var(--hv-bright)}
+  .hero .sub{font-size:clamp(1.05rem,2.1vw,1.28rem);margin-top:22px;max-width:57ch;color:rgba(255,255,255,.9);font-weight:400}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
+  .hero-note{display:flex;flex-wrap:wrap;align-items:center;gap:9px 16px;margin-top:26px;font-size:.93rem;color:rgba(255,255,255,.9)}
+  .hero-note .stars{color:var(--hv-bright);letter-spacing:1px}
+  .hero-note .dot{width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,.4)}
+  .hero-note strong{font-weight:700}
+  .hero-note .avail{display:inline-flex;align-items:center;gap:8px;font-weight:700}
+  .hero-note .avail svg{width:16px;height:16px;color:var(--hv-bright)}
+
+  /* ---------- Trust bar ---------- */
+  .trust{background:var(--charcoal);color:#fff;padding:0}
+  .trust .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding-top:26px;padding-bottom:26px}
+  .trust-item{display:flex;align-items:center;gap:13px;padding:6px 10px;min-width:0}
+  .trust-item svg{width:26px;height:26px;flex:none;color:var(--hv-bright)}
+  .trust-item b{display:block;font-size:.98rem;font-weight:700;line-height:1.14;font-family:"Exo",sans-serif}
+  .trust-item small{display:block;color:rgba(255,255,255,.64);font-size:.8rem}
+  .trust-item .stars{color:var(--hv-bright);font-size:.9rem;letter-spacing:1px}
+  @media(max-width:760px){.trust .wrap{grid-template-columns:repeat(2,1fr);gap:18px}}
+  @media(max-width:400px){.trust .wrap{grid-template-columns:1fr}}
+
+  /* ---------- Section heads ---------- */
+  .sec-head{max-width:720px;margin-bottom:50px}
+  .sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
+  .sec-head p{color:var(--muted);margin-top:15px;font-size:1.08rem}
+
+  /* ---------- Services ---------- */
+  .grid{display:grid;gap:20px}
+  .services .grid{grid-template-columns:repeat(3,1fr)}
+  .card{
+    background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);
+    padding:30px 28px;box-shadow:var(--shadow-sm);min-width:0;
+    transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;
+  }
+  .card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:var(--line-strong)}
+  .card .ico{
+    width:54px;height:54px;border-radius:14px;display:grid;place-items:center;
+    background:linear-gradient(155deg,var(--blue-soft),#d6e4ff);color:var(--blue-deep);margin-bottom:18px;
+    box-shadow:inset 0 0 0 1px rgba(11,99,255,.16);
+  }
+  .card .ico svg{width:28px;height:28px}
+  .card h3{margin-bottom:9px}
+  .card p{color:var(--muted);font-size:.98rem}
+  .card ul{list-style:none;margin:15px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:7px}
+  .card ul li{font-size:.77rem;font-weight:600;color:var(--blue-deep);background:var(--blue-soft);border:1px solid rgba(11,99,255,.18);border-radius:999px;padding:4px 11px}
+  @media(max-width:920px){.services .grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:580px){.services .grid{grid-template-columns:1fr}}
+
+  /* ---------- 24/7 feature ---------- */
+  .feature{background:var(--mist)}
+  .feature-grid{display:grid;grid-template-columns:1fr 1.02fr;gap:clamp(32px,6vw,72px);align-items:center}
+  .feature-copy{min-width:0}
+  .feature-copy>p.lead{color:var(--muted);margin-top:16px;font-size:1.07rem}
+  .feature-media{position:relative;min-width:0}
+  .feature-media img{border-radius:var(--radius);box-shadow:var(--shadow);width:100%;height:100%;max-height:540px;object-fit:cover}
+  .feature-media .float{
+    position:absolute;left:-14px;bottom:-20px;background:var(--paper);
+    border-radius:15px;padding:15px 20px;box-shadow:var(--shadow);border:1px solid var(--line);
+    display:flex;align-items:center;gap:14px;max-width:calc(100% - 28px);
+  }
+  .feature-media .float svg{width:28px;height:28px;flex:none;color:var(--blue)}
+  .feature-media .float b{font-family:"Exo",sans-serif;font-weight:700;font-size:1.02rem;color:var(--charcoal-ink);line-height:1.1;display:block}
+  .feature-media .float small{color:var(--muted);font-size:.82rem;line-height:1.3;display:block}
+  .feature-list{list-style:none;margin:26px 0 0;padding:0;display:grid;gap:2px}
+  .feature-list li{display:flex;gap:16px;padding:20px 0;border-top:1px solid var(--line);min-width:0}
+  .feature-list li:first-child{border-top:0}
+  .feature-list .n{
+    width:46px;height:46px;flex:none;border-radius:13px;
+    background:linear-gradient(155deg,var(--blue-bright),var(--blue-deep));color:var(--hv-bright);
+    display:grid;place-items:center;border:1px solid rgba(228,255,107,.32);font-family:"Exo",sans-serif;font-weight:800;
+  }
+  .feature-list .n svg{width:22px;height:22px}
+  .feature-list h3{font-size:1.13rem;margin-bottom:5px}
+  .feature-list p{color:var(--muted);font-size:.96rem}
+  @media(max-width:840px){.feature-grid{grid-template-columns:1fr}.feature-media{order:-1;max-width:560px}}
+
+  /* ---------- Pull-quote divider ---------- */
+  .divider{position:relative;color:#fff;overflow:hidden;text-align:center;padding-top:clamp(58px,9vw,100px);padding-bottom:clamp(58px,9vw,100px)}
+  .divider .bg{position:absolute;inset:0;z-index:-2}
+  .divider .bg img{width:100%;height:100%;object-fit:cover}
+  .divider::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(rgba(15,18,26,.9),rgba(12,40,110,.9))}
+  .divider .kicker{font-family:"Exo",sans-serif;text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;font-weight:700;color:var(--hv-bright);margin-bottom:20px}
+  .divider blockquote{
+    font-family:"Exo",sans-serif;font-weight:700;color:#fff;margin:0 auto;
+    font-size:clamp(1.5rem,4vw,2.5rem);line-height:1.2;letter-spacing:-.01em;max-width:26ch;
+  }
+  .divider blockquote b{color:var(--hv-bright);font-weight:700}
+  .divider .who{display:block;margin-top:24px;color:rgba(255,255,255,.74);font-size:.95rem;letter-spacing:.02em}
+  .divider .who .st{color:var(--hv-bright);letter-spacing:2px;margin-right:6px}
+
+  /* ---------- Testimonials ---------- */
+  .quotes{background:var(--white)}
+  .quotes .grid{grid-template-columns:repeat(3,1fr)}
+  .quote{
+    background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);
+    padding:27px 26px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:13px;min-width:0;
+  }
+  .quote .stars{color:#f5b301;letter-spacing:2px;font-size:1.02rem}
+  .quote blockquote{margin:0;font-size:1.01rem;color:var(--ink);line-height:1.58}
+  .quote figcaption{margin-top:auto;display:flex;align-items:center;gap:12px;font-size:.92rem}
+  .quote .av{
+    width:42px;height:42px;flex:none;border-radius:50%;
+    background:linear-gradient(155deg,var(--blue-bright),var(--blue-deep));color:var(--hv-bright);
+    display:grid;place-items:center;font-weight:800;font-family:"Exo",sans-serif;font-size:1rem;
+    border:1px solid rgba(228,255,107,.32);
+  }
+  .quote figcaption b{font-weight:700;display:block;line-height:1.2;font-family:"Exo",sans-serif}
+  .quote figcaption span.role{color:var(--muted);font-size:.8rem}
+  @media(max-width:920px){.quotes .grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:620px){.quotes .grid{grid-template-columns:1fr}}
+
+  /* ---------- Work strip ---------- */
+  .work{background:var(--mist-2)}
+  .work .strip{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px}
+  .work .strip figure{margin:0;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--line);background:#fff;min-width:0}
+  .work .strip img{width:100%;height:230px;object-fit:cover}
+  .work .strip figcaption{padding:14px 16px;font-size:.9rem;color:var(--muted);font-weight:600}
+  .work .placeholder-note{margin-top:20px;font-size:.86rem;color:var(--muted);display:flex;align-items:flex-start;gap:9px}
+  .work .placeholder-note svg{width:17px;height:17px;flex:none;color:var(--blue);margin-top:3px}
+  @media(max-width:820px){.work .strip{grid-template-columns:1fr 1fr}}
+  @media(max-width:520px){.work .strip{grid-template-columns:1fr}.work .strip img{height:210px}}
+
+  /* ---------- Area / hours ---------- */
+  .area-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(28px,5vw,52px);align-items:stretch}
+  .area-grid>*{min-width:0}
+  .addr-card{
+    background:var(--charcoal);color:#fff;border-radius:var(--radius);padding:clamp(26px,4vw,42px);
+    box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column;
+  }
+  .addr-card h3{color:#fff;font-size:1.5rem;margin-bottom:6px}
+  .addr-card>p{color:rgba(255,255,255,.8)}
+  .pin{display:flex;gap:14px;align-items:flex-start;margin-top:22px}
+  .pin svg{width:26px;height:26px;flex:none;color:var(--hv-bright);margin-top:2px}
+  .pin address{font-style:normal;line-height:1.55}
+  .pin address a{color:var(--hv-soft);text-decoration:none;font-weight:700}
+  .pin address a:hover{text-decoration:underline}
+  .addr-photo{margin-top:24px;border-radius:13px;overflow:hidden;border:1px solid rgba(255,255,255,.16)}
+  .addr-photo img{width:100%;height:170px;object-fit:cover;display:block}
+  .info-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:clamp(24px,4vw,40px);box-shadow:var(--shadow-sm)}
+  .open-banner{
+    display:flex;align-items:center;gap:13px;
+    background:var(--blue-soft);border:1px solid rgba(11,99,255,.2);color:var(--charcoal-ink);
+    border-radius:12px;padding:15px 18px;margin-bottom:6px;
+  }
+  .open-banner .pulse{width:12px;height:12px;flex:none;border-radius:50%;background:#22a35f;box-shadow:0 0 0 5px rgba(34,163,95,.2)}
+  .open-banner b{font-family:"Exo",sans-serif;font-size:1.1rem;line-height:1.1;display:block}
+  .open-banner small{color:var(--muted);font-size:.83rem}
+  .hours{list-style:none;margin:20px 0 0;padding:0}
+  .hours li{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-top:1px solid var(--line);font-size:.97rem}
+  .hours li:first-child{border-top:0}
+  .hours li.today{color:var(--blue);font-weight:700}
+  .hours li .oc{color:#1f8a52;font-weight:700}
+  .avail-note{
+    display:flex;gap:12px;align-items:flex-start;margin-top:20px;padding:15px 16px;
+    background:var(--blue-soft);border:1px solid rgba(11,99,255,.18);border-radius:12px;
+  }
+  .avail-note svg{width:22px;height:22px;flex:none;color:var(--blue-deep);margin-top:2px}
+  .avail-note p{font-size:.9rem;color:var(--charcoal-ink)}
+  .areas-served{margin-top:22px;display:flex;flex-wrap:wrap;gap:8px}
+  .areas-served span{background:var(--blue-soft);border:1px solid rgba(11,99,255,.18);border-radius:999px;padding:6px 13px;font-size:.82rem;color:var(--muted);font-weight:600}
+  @media(max-width:840px){.area-grid{grid-template-columns:1fr}}
+
+  /* ---------- CTA band ---------- */
+  .cta-band{position:relative;color:#fff;text-align:center;overflow:hidden}
+  .cta-band .bg{position:absolute;inset:0;z-index:-2}
+  .cta-band .bg img{width:100%;height:100%;object-fit:cover}
+  .cta-band::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(rgba(15,18,26,.9),rgba(12,40,110,.92))}
+  .cta-band h2{color:#fff;font-size:clamp(2rem,5vw,3.3rem)}
+  .cta-band p{color:rgba(255,255,255,.9);font-size:1.11rem;margin:16px auto 0;max-width:54ch}
+  .cta-band .cta-row{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:30px}
+  .cta-phone{display:inline-block;font-family:"Exo",sans-serif;font-weight:800;font-size:clamp(1.7rem,4vw,2.4rem);margin-top:22px;color:var(--hv-bright);text-decoration:none;letter-spacing:-.01em}
+  .cta-phone:hover{text-decoration:underline}
+  .cta-band .free{margin-top:14px;font-size:.9rem;color:rgba(255,255,255,.74);letter-spacing:.02em}
+
+  /* ---------- Footer ---------- */
+  footer.site{background:var(--charcoal-ink);color:rgba(255,255,255,.82);padding-top:62px;padding-bottom:52px}
+  .foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:36px}
+  .foot-grid>*{min-width:0}
+  .foot-brand .brand b{color:#fff;white-space:normal}
+  .foot-brand .brand .tag{color:rgba(255,255,255,.55)}
+  .foot-brand p.desc{margin-top:18px;max-width:40ch;font-size:.92rem;color:rgba(255,255,255,.62)}
+  footer.site h4{font-family:"Exo",sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.74rem;color:rgba(255,255,255,.58);margin:0 0 14px;font-weight:700}
+  footer.site a{color:rgba(255,255,255,.86);text-decoration:none}
+  footer.site a:hover{color:#fff;text-decoration:underline}
+  .foot-col ul{list-style:none;margin:0;padding:0;display:grid;gap:10px;font-size:.93rem}
+  .foot-bottom{border-top:1px solid rgba(255,255,255,.13);margin-top:42px;padding-top:22px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:.83rem;color:rgba(255,255,255,.58)}
+  .foot-bottom a{color:var(--hv-soft)}
+  @media(max-width:720px){.foot-grid{grid-template-columns:1fr 1fr}.foot-brand{grid-column:1/-1}}
+  @media(max-width:460px){.foot-grid{grid-template-columns:1fr}}
+
+  /* ---------- Reveal ---------- */
+  .js .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+  .js .reveal.in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .js .reveal{opacity:1;transform:none;transition:none}
+    *{transition:none!important;animation:none!important}
+  }
+</style>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Copperline Electric Co. — home">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 4.5 13.5H11l-1.2 8.5L20 9.5h-6.6L13 2Z"/></svg>
+      </span>
+      <span class="bt"><b>Copperline Electric Co.</b><span class="tag">Tampa Bay Area &middot; Open 24 Hours</span></span>
+    </a>
+    <div class="nav-right">
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#always-on">24/7</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Hours &amp; Area</a>
+      </nav>
+      <a class="call-btn" href="tel:+17275550143" aria-label="Call Copperline Electric Co. at (727) 555-0143">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2Z"/></svg>
+        <span class="cn">(727) 555-0143<small>Tap to call &middot; 24/7</small></span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <span id="top"></span>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" aria-label="Introduction">
+    <div class="hero-bg" aria-hidden="true">
+      <img src="https://images.unsplash.com/photo-1595831708961-1b13c0dd2422?w=1900&q=80&auto=format&fit=crop" alt="">
+    </div>
+    <div class="wrap">
+      <div class="hero-inner">
+        <span class="badge">
+          <span class="live"><span class="pulse" aria-hidden="true"></span> Open 24 Hours</span>
+          &middot; <span class="stars" aria-hidden="true">★★★★★</span> 5-star rated
+        </span>
+        <h1>The Bay Area's <em>around-the-clock</em> electrician.</h1>
+        <p class="sub">Copperline Electric Co. handles panel replacements &amp; upgrades, transfer switch and generator hookups, lighting installs, general residential wiring and true emergency electrical work across the Tampa Bay Area — with fair, competitive pricing and someone who actually answers, day or night.</p>
+        <div class="hero-cta">
+          <a class="btn btn-hv stack" href="tel:+17275550143">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2Z"/></svg>
+            <span class="txt">Call (727) 555-0143<span class="sub">Open 24 hours, 7 days a week</span></span>
+          </a>
+          <a class="btn btn-ghost" href="sms:+17275550143">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H8l-4 4V5a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2Z"/></svg>
+            Text us
+          </a>
+        </div>
+        <p class="hero-note">
+          <span><span class="stars" aria-hidden="true">★★★★★</span> <strong>5.0</strong> &middot; rated by local homeowners</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span class="avail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> Available 24/7</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST BAR ============ -->
+  <section class="trust" aria-label="Why Tampa Bay calls Copperline Electric">
+    <div class="wrap">
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 2.9 6 6.6.6-5 4.4 1.5 6.4L12 16.5 6 19.4l1.5-6.4-5-4.4L9 8Z"/></svg>
+        <div><b>5 <span class="stars" aria-hidden="true">★</span> Rated</b><small>By homeowners we serve</small></div>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <div><b>Open 24 Hours</b><small>Every day, day or night</small></div>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 1v22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        <div><b>Fair, Competitive Pricing</b><small>Praised across the reviews</small></div>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7h-9"/><path d="M14 17H5"/><circle cx="17" cy="17" r="3"/><circle cx="7" cy="7" r="3"/></svg>
+        <div><b>Owner-Run &amp; Local</b><small>the Tampa Bay Area</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services" aria-labelledby="services-h">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Services</p>
+        <h2 id="services-h">Electrical work done right, at a fair price.</h2>
+        <p>From a full panel swap to a new run of garage lighting, Copperline Electric Co. keeps the Tampa Bay Area homes safe, powered and up to standard — and answers when you have an emergency.</p>
+      </div>
+      <div class="grid">
+
+        <article class="card reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 7h6"/><path d="M9 11h6"/><path d="m11 15-1.5 2.5H12L10.5 20"/></svg></div>
+          <h3>Panel Replacement &amp; Upgrades</h3>
+          <p>Aging or overloaded electrical panels replaced and upgraded so your home has the safe, reliable capacity it needs — the kind of work Copperline is chosen for again and again.</p>
+          <ul><li>Panel swaps</li><li>Service upgrades</li></ul>
+        </article>
+
+        <article class="card reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4.5 13.5H11l-1.2 8.5L20 9.5h-6.6L13 2Z"/></svg></div>
+          <h3>Transfer Switch &amp; Generator Hookups</h3>
+          <p>Transfer switches installed and generators wired in properly, so when the power goes out in a Florida storm your home switches over safely and stays running.</p>
+          <ul><li>Transfer switches</li><li>Backup power</li></ul>
+        </article>
+
+        <article class="card reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 21h4"/><path d="M12 3a6 6 0 0 0-4 10.5c.6.6 1 1.4 1 2.5h6c0-1.1.4-1.9 1-2.5A6 6 0 0 0 12 3Z"/></svg></div>
+          <h3>Lighting Installation</h3>
+          <p>New lighting installed cleanly indoors and out — garage and shop lighting, fixtures, and upgrades that brighten the space and get the job done right.</p>
+          <ul><li>Garage &amp; shop</li><li>New fixtures</li></ul>
+        </article>
+
+        <article class="card reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <h3>24-Hour Emergency Electrical</h3>
+          <p>Open 24 hours, seven days a week. When something loses power or goes wrong after hours, you get someone who answers and comes to your aid — not a voicemail.</p>
+          <ul><li>Day or night</li><li>Fast response</li></ul>
+        </article>
+
+        <article class="card reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V8l7-4 7 4v13"/><path d="M9 21v-6h6v6"/><path d="M9 12h.01M15 12h.01"/></svg></div>
+          <h3>Residential &amp; General Electrical</h3>
+          <p>Outlets, switches, circuits, wiring and everyday electrical work throughout the home — add a request while they're on site and it's not a problem.</p>
+          <ul><li>Wiring &amp; outlets</li><li>No job too small</li></ul>
+        </article>
+
+        <article class="card reveal">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4l-6 6a1.5 1.5 0 0 0 0 2.1l.9.9a1.5 1.5 0 0 0 2.1 0l6-6a4 4 0 0 0 5.4-5.4l-2.3 2.3-2.1-2.1Z"/></svg></div>
+          <h3>Repairs &amp; Troubleshooting</h3>
+          <p>Something not working the way it should? Copperline tracks down the real cause and fixes it properly — quick, professional, high-quality work at a reasonable price.</p>
+          <ul><li>Diagnosis</li><li>Safe repairs</li></ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 24/7 FEATURE ============ -->
+  <section class="feature" id="always-on" aria-labelledby="always-h">
+    <div class="wrap feature-grid">
+      <div class="feature-copy reveal">
+        <p class="eyebrow">Around the clock</p>
+        <h2 id="always-h">When you call, someone comes — even after hours.</h2>
+        <p class="lead">Electrical problems don't wait for business hours, and neither does Copperline Electric Co. Open 24 hours, seven days a week — reviewers tell the story of getting a call back off the clock, someone showing up within the hour, and a fair price at the end of it. That's what "24/7" is supposed to mean.</p>
+        <ul class="feature-list">
+          <li>
+            <span class="n" aria-hidden="true">1</span>
+            <div><h3>Reach a real person, day or night</h3><p>Call or text any hour — you get someone who answers and will come to your aid, not an answering machine.</p></div>
+          </li>
+          <li>
+            <span class="n" aria-hidden="true">2</span>
+            <div><h3>Fast, dependable response</h3><p>Reviewers describe quick service and help arriving within the hour — even when it meant coming out on a night or a holiday weekend.</p></div>
+          </li>
+          <li>
+            <span class="n" aria-hidden="true">3</span>
+            <div><h3>Fair pricing, every time</h3><p>Competitive quotes and extremely fair prices come up again and again — homeowners who shopped around chose Copperline.</p></div>
+          </li>
+        </ul>
+      </div>
+      <div class="feature-media reveal">
+        <img src="https://images.unsplash.com/photo-1676630656246-3047520adfdf?w=900&q=80&auto=format&fit=crop" loading="lazy" alt="An electrician wiring an electrical device on a wall during a residential install">
+        <div class="float">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <div><b>Open 24 hours</b><small>Seven days a week, day or night</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PULL-QUOTE DIVIDER ============ -->
+  <section class="divider" aria-label="A word from a customer">
+    <div class="bg" aria-hidden="true"><img loading="lazy" src="https://images.unsplash.com/photo-1563456019560-2b37aa7ad890?w=1600&q=80&auto=format&fit=crop" alt=""></div>
+    <div class="wrap">
+      <p class="kicker">From our reviews</p>
+      <blockquote>&ldquo;Called late on a Sunday expecting voicemail. Someone picked up, and they were out here fixing it that night. <b>That's rare</b> these days.&rdquo;</blockquote>
+      <span class="who"><span class="st" aria-hidden="true">★★★★★</span> Placeholder review &middot; Tampa Bay Area</span>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="quotes" id="reviews" aria-labelledby="rev-h">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">From our reviews</p>
+        <h2 id="rev-h">Neighbors, in their own words.</h2>
+        <p>Placeholder reviews shown here to demonstrate the layout — swap these for the client's own customer testimonials before launch.</p>
+      </div>
+      <div class="grid">
+
+        <figure class="quote reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>&ldquo;Got quotes from a few shops for a panel replacement and a transfer switch. These guys came in fair and explained exactly what I was paying for. I'll be calling them for anything electrical from now on.&rdquo;</blockquote>
+          <figcaption><span class="av" aria-hidden="true">D</span><span><b>Dana R.</b><span class="role">Panel replacement &amp; transfer switch</span></span></figcaption>
+        </figure>
+
+        <figure class="quote reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>&ldquo;Third time I've had them out and it's the same every time — quick, reasonable, and the work is clean. This round it was new lighting through the garage and it came out great.&rdquo;</blockquote>
+          <figcaption><span class="av" aria-hidden="true">T</span><span><b>Travis B.</b><span class="role">Garage lighting &middot; repeat customer</span></span></figcaption>
+        </figure>
+
+        <figure class="quote reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>&ldquo;Half my house lost power on a holiday weekend and they still answered the phone. Prices were more than fair and they were genuinely nice about the whole thing. Couldn't ask for better.&rdquo;</blockquote>
+          <figcaption><span class="av" aria-hidden="true">M</span><span><b>Monica P.</b><span class="role">Fair prices &middot; comes anytime</span></span></figcaption>
+        </figure>
+
+        <figure class="quote reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>&ldquo;Breaker panel started smoking late on a Friday night. I called around and these were the only ones who picked up — truck was in my driveway inside the hour. Rates were competitive too.&rdquo;</blockquote>
+          <figcaption><span class="av" aria-hidden="true">R</span><span><b>Reggie T.</b><span class="role">Late-night emergency call</span></span></figcaption>
+        </figure>
+
+        <figure class="quote reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>&ldquo;Priced the job with five different companies and this crew was the best of the bunch by a mile. Professional start to finish and they actually seemed to care. Fair price, great service. Highly recommend!&rdquo;</blockquote>
+          <figcaption><span class="av" aria-hidden="true">S</span><span><b>Sonia V.</b><span class="role">Best of five quotes</span></span></figcaption>
+        </figure>
+
+        <figure class="quote reveal" style="background:linear-gradient(155deg,var(--blue),var(--blue-deep));border-color:var(--blue-deep);color:#fff">
+          <div class="stars" aria-hidden="true" style="color:var(--hv-bright)">★★★★★</div>
+          <blockquote style="color:#fff;font-family:'Exo',sans-serif;font-weight:700;font-size:1.2rem;line-height:1.25">5&#9733; rated by Tampa Bay homeowners.</blockquote>
+          <p style="color:rgba(255,255,255,.85);font-size:.95rem">Fair, competitive pricing, quick response and quality work — for homes across the Tampa Bay Area. Open 24 hours; call or text to get on the schedule.</p>
+          <a href="tel:+17275550143" style="margin-top:auto;color:var(--hv-bright);font-weight:700;text-decoration:none;font-family:'Exo',sans-serif">(727) 555-0143 →</a>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK STRIP ============ -->
+  <section class="work" aria-labelledby="work-h">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">The kind of work we do</p>
+        <h2 id="work-h">Panels, backup power &amp; lighting.</h2>
+      </div>
+      <div class="strip reveal">
+        <figure>
+          <img loading="lazy" src="https://images.unsplash.com/photo-1661864359698-fcfe5fef9917?w=800&q=80&auto=format&fit=crop" alt="An outdoor electrical service panel and meter with breakers and wiring">
+          <figcaption>Panel replacements &amp; service upgrades</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="https://images.unsplash.com/photo-1780445392484-38a4852a1fd8?w=800&q=80&auto=format&fit=crop" alt="A standby home generator unit installed outside a house">
+          <figcaption>Transfer switch &amp; generator hookups</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="https://images.unsplash.com/photo-1659612534697-3edc1892db46?w=800&q=80&auto=format&fit=crop" alt="Recessed and pendant lighting installed in a modern ceiling">
+          <figcaption>Lighting installation, indoors &amp; out</figcaption>
+        </figure>
+      </div>
+      <p class="placeholder-note">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01"/><path d="M11 12h1v4h1"/></svg>
+        Representative photos shown here as placeholders — these are swapped for the client's own project photos once the site goes live.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ AREA / HOURS ============ -->
+  <section id="contact" aria-labelledby="area-h">
+    <div class="wrap">
+      <div class="sec-head reveal" style="margin-bottom:42px">
+        <p class="eyebrow">Hours, area &amp; address</p>
+        <h2 id="area-h">Serving the Tampa Bay Area — open 24 hours.</h2>
+      </div>
+      <div class="area-grid">
+
+        <div class="addr-card reveal">
+          <h3>Copperline Electric Co.</h3>
+          <p>Call or text to get on the schedule — residential and general electrical help across the Tampa Bay Area, any hour of the day.</p>
+          <div class="pin">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <address>
+              Mobile service &mdash; we come to you<br>
+              Serving the Tampa Bay Area<br>
+              <a href="tel:+17275550143">(727) 555-0143</a>
+            </address>
+          </div>
+          <div class="addr-photo">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1581972327480-e3764d31e5e6?w=900&q=80&auto=format&fit=crop" alt="Close-up of neatly wired electrical connectors in a junction box">
+          </div>
+        </div>
+
+        <div class="info-card reveal">
+          <div class="open-banner">
+            <span class="pulse" aria-hidden="true"></span>
+            <span>
+              <b>Open 24 hours &middot; 7 days a week</b>
+              <small>Open now — call or text anytime</small>
+            </span>
+          </div>
+          <ul class="hours" aria-label="Hours of operation">
+            <li data-day="1"><span>Monday</span><span class="oc">Open 24 hours</span></li>
+            <li data-day="2"><span>Tuesday</span><span class="oc">Open 24 hours</span></li>
+            <li data-day="3"><span>Wednesday</span><span class="oc">Open 24 hours</span></li>
+            <li data-day="4"><span>Thursday</span><span class="oc">Open 24 hours</span></li>
+            <li data-day="5"><span>Friday</span><span class="oc">Open 24 hours</span></li>
+            <li data-day="6"><span>Saturday</span><span class="oc">Open 24 hours</span></li>
+            <li data-day="0"><span>Sunday</span><span class="oc">Open 24 hours</span></li>
+          </ul>
+          <div class="avail-note">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <p>Open 24 hours, every day. Call during the day or reach out anytime — day, night or holiday weekend — and Copperline will come to your aid.</p>
+          </div>
+          <p class="eyebrow" style="margin:24px 0 0">Areas served</p>
+          <div class="areas-served">
+            <span>Tampa</span><span>St. Petersburg</span><span>Clearwater</span><span>Brandon</span><span>Largo</span><span>Palm Harbor</span><span>Riverview</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA BAND ============ -->
+  <section class="cta-band" aria-labelledby="cta-h">
+    <div class="bg" aria-hidden="true"><img loading="lazy" src="https://images.unsplash.com/photo-1595831708961-1b13c0dd2422?w=1600&q=80&auto=format&fit=crop" alt=""></div>
+    <div class="wrap">
+      <h2 id="cta-h">Need an electrician who answers?</h2>
+      <p>Call or text Copperline Electric Co. for panel upgrades, transfer switches, generator hookups, lighting, emergencies and general electrical work across the Tampa Bay Area — open 24 hours.</p>
+      <div class="cta-row">
+        <a class="btn btn-hv" href="tel:+17275550143">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2Z"/></svg>
+          Call now
+        </a>
+        <a class="btn btn-ghost" href="sms:+17275550143">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H8l-4 4V5a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2Z"/></svg>
+          Text us
+        </a>
+      </div>
+      <a class="cta-phone" href="tel:+17275550143">(727) 555-0143</a>
+      <p class="free">Owner-run &middot; the Tampa Bay Area &middot; Open 24 hours, 7 days a week</p>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <span class="mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 4.5 13.5H11l-1.2 8.5L20 9.5h-6.6L13 2Z"/></svg>
+          </span>
+          <span class="bt"><b>Copperline Electric Co.</b><span class="tag">Tampa Bay Area &middot; Open 24 Hours</span></span>
+        </div>
+        <p class="desc">Owner-run electrician for the Tampa Bay Area — panel replacement &amp; upgrades, transfer switch &amp; generator hookups, lighting installation, 24-hour emergency electrical and general residential wiring &amp; repairs.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+17275550143">(727) 555-0143</a></li>
+          <li><a href="sms:+17275550143">Text us</a></li>
+          <li>Serving the Tampa Bay Area</li>
+          <li>Open 24 hours, 7 days a week</li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Panel Replacement &amp; Upgrades</a></li>
+          <li><a href="#services">Transfer Switch &amp; Generators</a></li>
+          <li><a href="#services">Lighting Installation</a></li>
+          <li><a href="#always-on">24-Hour Emergency Electrical</a></li>
+          <li><a href="#services">Residential &amp; General Electrical</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="yr">2026</span> Copperline Electric Co. All rights reserved. &middot; Tampa Bay Area.</span>
+      <span>Website by <a href="https://wilsoninnovations.net" target="_blank" rel="noopener">Wilson Innovations</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Enable JS-only reveal styling
+  document.documentElement.classList.add('js');
+
+  // Current year
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // ---------- Hours: highlight today (open 24 hours, always open) ----------
+  (function(){
+    var day = new Date().getDay();
+    var li = document.querySelector('.hours li[data-day="'+day+'"]');
+    if(li){ li.classList.add('today'); }
+  })();
+
+  // ---------- Scroll reveal (respects prefers-reduced-motion) ----------
+  (function(){
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var els = document.querySelectorAll('.reveal');
+    if(reduce || !('IntersectionObserver' in window)){
+      els.forEach(function(el){ el.classList.add('in'); });
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, {threshold:0.12, rootMargin:'0px 0px -40px 0px'});
+    els.forEach(function(el){ io.observe(el); });
+  })();
+</script>
+</body>
+</html>
